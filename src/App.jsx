@@ -1,10 +1,11 @@
 import Header from "./assets/components/Header";
+import Main from "./assets/components/Main";
 
-export default function () {
+export default function App() {
   return (
     <>
       <Header />
-      <h1> My App </h1>
+      <Main />
     </>
   );
 }
