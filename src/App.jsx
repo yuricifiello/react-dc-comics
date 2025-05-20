@@ -1,3 +1,10 @@
+import Header from "./assets/components/Header";
+
 export default function () {
-  return <h1> My App </h1>;
+  return (
+    <>
+      <Header />
+      <h1> My App </h1>
+    </>
+  );
 }
