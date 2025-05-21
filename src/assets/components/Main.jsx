@@ -7,20 +7,33 @@ import power from "/src/assets/img/buy-dc-power-visa.svg";
 export default function Main() {
   return (
     <main>
-      <section id="content-main">
-        <div className="container">
-          <h1>--&gt; Content goes here! &lt;--</h1>
+      <main>
+        <div className="content-placeholder">
+          --&gt; Content goes here &lt;--
         </div>
-      </section>
-      <section>
-        <div className="container">
-          <img src={mobile} alt="Digital Comics" />
-          <img src={tshirt} alt="Merchandise" />
-          <img src={shop} alt="Locator" />
-          <img src={subscriptions} alt="Subscriptions" />
-          <img src={power} alt="Card" />
-        </div>
-      </section>
+        <section className="blue-bar">
+          <div className="blue-item">
+            <img src={mobile} alt={mobile} />
+            <p>DIGITAL COMICS</p>
+          </div>
+          <div className="blue-item">
+            <img src={tshirt} alt="Merch" />
+            <p>DC MERCHANDISE</p>
+          </div>
+          <div className="blue-item">
+            <img src={subscriptions} alt="Subscription" />
+            <p>SUBSCRIPTION</p>
+          </div>
+          <div className="blue-item">
+            <img src={shop} alt="Locator" />
+            <p>COMIC SHOP LOCATOR</p>
+          </div>
+          <div className="blue-item">
+            <img src={power} alt="Visa" />
+            <p>DC POWER VISA</p>
+          </div>
+        </section>
+      </main>
     </main>
   );
 }
