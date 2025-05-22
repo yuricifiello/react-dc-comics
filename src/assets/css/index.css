@@ -160,3 +160,20 @@ footer {
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+/* ComicCard.css */
+.comic-card {
+  width: 150px;
+  text-align: center;
+  color: white;
+}
+
+.comic-thumb {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.comic-title {
+  margin-top: 10px;
+  font-size: 14px;
+}
